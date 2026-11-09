@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nexo Propiedades | Agenda tu visita</title>
+  <meta name="description" content="Nexo Propiedades: te acompañamos a encontrar y comprar la propiedad ideal. Agenda una cita gratuita con un asesor." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header class="header" id="inicio">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Nexo Propiedades, inicio">
+        <span class="logo__mark">N</span>
+        <span class="logo__text">Nexo <strong>Propiedades</strong></span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#propiedades">Propiedades</a>
+        <a href="#proceso">Cómo trabajamos</a>
+        <a href="#testimonios">Clientes</a>
+        <a href="#agendar" class="btn btn--small">Agendar cita</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow">Asesoría inmobiliaria personalizada</p>
+          <h1>Encuentra el hogar que estabas buscando.</h1>
+          <p class="hero__lead">
+            Te acompañamos en cada paso de la compra de tu propiedad: búsqueda, visitas,
+            negociación y cierre. Sin presión y con total transparencia.
+          </p>
+          <div class="hero__actions">
+            <a href="#agendar" class="btn">Agenda tu cita gratis</a>
+            <a href="#propiedades" class="btn btn--ghost">Ver propiedades</a>
+          </div>
+          <ul class="stats">
+            <li><strong>+350</strong><span>familias asesoradas</span></li>
+            <li><strong>12 años</strong><span>de experiencia</span></li>
+            <li><strong>98%</strong><span>clientes satisfechos</span></li>
+          </ul>
+        </div>
+        <div class="hero__media">
+          <img
+            src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1200&q=80"
+            alt="Casa moderna con jardín al atardecer" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Beneficios -->
+    <section class="section section--muted">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Por qué Nexo</p>
+          <h2>Comprar una propiedad, simple y seguro</h2>
+        </div>
+        <div class="features">
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            </div>
+            <h3>Búsqueda a tu medida</h3>
+            <p>Filtramos el mercado según tu presupuesto, zona y estilo de vida. Solo ves lo que vale la pena.</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 4.5 3.4 8.2 8 9 4.6-.8 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+            </div>
+            <h3>Propiedades verificadas</h3>
+            <p>Revisamos títulos, documentación y estado legal antes de que firmes cualquier cosa.</p>
+          </article>
+          <article class="feature">
+            <div class="feature__icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h10"/></svg>
+            </div>
+            <h3>Acompañamiento total</h3>
+            <p>Te asesoramos en financiamiento, negociación y cierre. Un solo asesor de principio a fin.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Propiedades destacadas -->
+    <section class="section" id="propiedades">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Destacadas</p>
+          <h2>Algunas propiedades disponibles</h2>
+        </div>
+        <div class="cards">
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=75" alt="Casa contemporánea con piscina" loading="lazy" />
+            <div class="card__body">
+              <span class="tag">Casa</span>
+              <h3>Casa contemporánea</h3>
+              <p class="card__meta">4 dorm · 3 baños · 280 m²</p>
+              <p class="card__price">USD 420.000</p>
+              <a href="#agendar" class="card__link" data-property="Casa contemporánea">Agendar visita →</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=75" alt="Living luminoso de departamento" loading="lazy" />
+            <div class="card__body">
+              <span class="tag">Departamento</span>
+              <h3>Departamento céntrico</h3>
+              <p class="card__meta">2 dorm · 2 baños · 85 m²</p>
+              <p class="card__price">USD 165.000</p>
+              <a href="#agendar" class="card__link" data-property="Departamento céntrico">Agendar visita →</a>
+            </div>
+          </article>
+          <article class="card">
+            <img src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=75" alt="Casa familiar de dos plantas" loading="lazy" />
+            <div class="card__body">
+              <span class="tag">Casa</span>
+              <h3>Casa familiar con jardín</h3>
+              <p class="card__meta">3 dorm · 2 baños · 190 m²</p>
+              <p class="card__price">USD 295.000</p>
+              <a href="#agendar" class="card__link" data-property="Casa familiar con jardín">Agendar visita →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proceso -->
+    <section class="section section--muted" id="proceso">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Cómo trabajamos</p>
+          <h2>Tres pasos hacia tu nueva propiedad</h2>
+        </div>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num">01</span>
+            <h3>Agenda tu cita</h3>
+            <p>Completa el formulario y elige el día que mejor te acomode. Es gratis y sin compromiso.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">02</span>
+            <h3>Conversamos</h3>
+            <p>Un asesor conoce lo que buscas y te presenta una selección de propiedades a tu medida.</p>
+          </li>
+          <li class="step">
+            <span class="step__num">03</span>
+            <h3>Visitas y cierre</h3>
+            <p>Coordinamos las visitas, negociamos por ti y te acompañamos hasta la firma.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section class="section" id="testimonios">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow">Clientes</p>
+          <h2>Lo que dicen quienes ya compraron</h2>
+        </div>
+        <div class="quotes">
+          <figure class="quote">
+            <blockquote>“Nos ayudaron a encontrar nuestra primera casa en menos de dos meses. Siempre claros y disponibles.”</blockquote>
+            <figcaption><strong>Carolina y Martín</strong><span>Compraron una casa familiar</span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“La revisión de documentos me dio mucha tranquilidad. Se nota que saben lo que hacen.”</blockquote>
+            <figcaption><strong>Andrés R.</strong><span>Compró un departamento</span></figcaption>
+          </figure>
+          <figure class="quote">
+            <blockquote>“Negociaron un precio mejor del que esperaba. Totalmente recomendables.”</blockquote>
+            <figcaption><strong>Lucía M.</strong><span>Compró como inversión</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Agendar -->
+    <section class="section section--dark" id="agendar">
+      <div class="container booking">
+        <div class="booking__info">
+          <p class="eyebrow eyebrow--light">Agenda tu cita</p>
+          <h2>Hablemos sobre la propiedad que buscas</h2>
+          <p>
+            Completa tus datos y un asesor te contactará en menos de 24 horas para confirmar
+            tu cita. La primera reunión es gratuita y puede ser presencial o por videollamada.
+          </p>
+          <ul class="checklist">
+            <li>Sin costo ni compromiso</li>
+            <li>Presencial o por videollamada</li>
+            <li>Confirmación en menos de 24 h</li>
+          </ul>
+        </div>
+
+        <form class="form" id="booking-form" novalidate>
+          <div class="form__success" id="form-success" hidden>
+            <div class="form__success-icon" aria-hidden="true">✓</div>
+            <h3>¡Solicitud enviada!</h3>
+            <p>Gracias, <span id="success-name"></span>. Te contactaremos pronto para confirmar tu cita.</p>
+            <button type="button" class="btn btn--ghost" id="form-reset">Agendar otra cita</button>
+          </div>
+
+          <div class="form__fields" id="form-fields">
+            <div class="field">
+              <label for="name">Nombre completo</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+              <small class="field__error">Ingresa tu nombre.</small>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" autocomplete="email" required />
+                <small class="field__error">Ingresa un email válido.</small>
+              </div>
+              <div class="field">
+                <label for="phone">Teléfono</label>
+                <input id="phone" name="phone" type="tel" autocomplete="tel" required />
+                <small class="field__error">Ingresa tu teléfono.</small>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="type">Tipo de propiedad</label>
+                <select id="type" name="type" required>
+                  <option value="">Selecciona</option>
+                  <option>Casa</option>
+                  <option>Departamento</option>
+                  <option>Terreno</option>
+                  <option>Local u oficina</option>
+                  <option>Aún no lo sé</option>
+                </select>
+                <small class="field__error">Elige una opción.</small>
+              </div>
+              <div class="field">
+                <label for="budget">Presupuesto aproximado</label>
+                <select id="budget" name="budget">
+                  <option value="">Prefiero no decir</option>
+                  <option>Hasta USD 150.000</option>
+                  <option>USD 150.000 – 300.000</option>
+                  <option>USD 300.000 – 500.000</option>
+                  <option>Más de USD 500.000</option>
+                </select>
+              </div>
+            </div>
+            <div class="field-row">
+              <div class="field">
+                <label for="date">Fecha preferida</label>
+                <input id="date" name="date" type="date" required />
+                <small class="field__error">Elige una fecha a partir de mañana.</small>
+              </div>
+              <div class="field">
+                <label for="time">Horario</label>
+                <select id="time" name="time" required>
+                  <option value="">Selecciona</option>
+                  <option>Mañana (9:00 – 12:00)</option>
+                  <option>Mediodía (12:00 – 15:00)</option>
+                  <option>Tarde (15:00 – 19:00)</option>
+                </select>
+                <small class="field__error">Elige un horario.</small>
+              </div>
+            </div>
+            <div class="field">
+              <label for="message">Comentarios <span class="optional">(opcional)</span></label>
+              <textarea id="message" name="message" rows="3" placeholder="Zona de interés, cantidad de dormitorios, etc."></textarea>
+            </div>
+            <button type="submit" class="btn btn--full">Solicitar cita</button>
+            <p class="form__note">Tus datos solo se usan para contactarte sobre tu cita.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#inicio" class="logo logo--footer">
+        <span class="logo__mark">N</span>
+        <span class="logo__text">Nexo <strong>Propiedades</strong></span>
+      </a>
+      <div class="footer__contact">
+        <a href="tel:+000000000">+00 000 000 000</a>
+        <a href="mailto:contacto@nexopropiedades.com">contacto@nexopropiedades.com</a>
+      </div>
+      <p class="footer__copy">© <span id="year"></span> Nexo Propiedades. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
