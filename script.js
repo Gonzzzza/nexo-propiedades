@@ -1,8 +1,7 @@
 // ===== Configuración =====
-// Para recibir las solicitudes por email, crea un formulario gratuito en https://formspree.io
-// y pega aquí su URL (ej: "https://formspree.io/f/abcdwxyz"). Si queda vacío, el formulario
-// solo muestra el mensaje de confirmación (modo demo).
-const FORM_ENDPOINT = "";
+// Las solicitudes de cita se envían por email a través de Formspree.
+// Si se deja vacío, el formulario solo muestra el mensaje de confirmación (modo demo).
+const FORM_ENDPOINT = "https://formspree.io/f/xbggnjoz";
 
 document.addEventListener("DOMContentLoaded", () => {
   const header = document.querySelector(".header");
